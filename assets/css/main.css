@@ -1871,8 +1871,11 @@ header h6 + p {
   font-size: 0.9em;
 }
 
+/* underneath portfolio heading */
+
 header.major {
-  margin: 0 0 3.5em 0;
+  padding: 1em;
+  /* margin: 0 0 3.5em 0; */
 }
 
 header.major h2,
@@ -2645,24 +2648,25 @@ button:disabled,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  -moz-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  /* -moz-flex-wrap: wrap; */
+  /* -webkit-flex-wrap: wrap; */
+  /* -ms-flex-wrap: wrap; */
+  /* flex-wrap: wrap; */
   -moz-justify-content: center;
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
   list-style: none;
-  padding: 0;
+  padding-right: 10px;
   width: 100%;
 }
 
 .features li {
-  padding: 4em 4em 2em 6em;
+  /* padding: 4em 4em 2em 6em; */
+  padding: 1em;
   display: block;
   position: relative;
-  text-align: left;
+  text-align: center;
   width: 50%;
 }
 
@@ -2883,6 +2887,7 @@ button:disabled,
 
 .wrapper {
   padding: 6em 0 4em 0;
+  /* padding: 6em 0 4em 0; */
 }
 
 .wrapper > .inner {
@@ -3078,7 +3083,7 @@ button:disabled,
 
 .wrapper.style3 {
   background-color: #8a5a5af9;
-  color: #d3d4e4;
+  /* color: #d3d4e4; */
 }
 
 .wrapper.style3 strong,
