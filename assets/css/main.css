@@ -2658,12 +2658,12 @@ button:disabled,
   justify-content: center;
   list-style: none;
   padding-right: 10px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .features li {
-  /* padding: 4em 4em 2em 6em; */
-  padding: 1em;
+  padding: 4em 4em 2em 6em;
+  /* padding: 1em; */
   display: block;
   position: relative;
   text-align: center;
